@@ -1,0 +1,272 @@
+
+.myNav{
+    z-index: 9999;
+}
+a.nav-link.active{
+  color: #FFBD39 !important
+}
+.progress-bar{
+  background-color: #FFBD39 !important
+}
+a.nav-link {
+    color: white   ;
+    font-weight: 600;
+    position: relative;
+  
+  
+}
+
+.navbar-brand{
+    font-weight: 900;
+    font-size: 24px;
+    
+}
+
+.nav-link:hover {
+ color: #FFBD39  !important;
+  
+    
+}
+
+ a.nav-link::after{
+    content:"";
+    position: absolute; 
+    top:85%;
+    left:50%;
+    right: 50%;
+    height: 3px;
+    background-color:#FFBD39;
+    transition: all 0.5s;
+ 
+}
+.nav-item:hover a.nav-link::after{
+  
+    left:10%;
+    right: 10%;
+}
+.Home{
+    overflow: hidden;
+}
+
+
+.animated  {
+    -webkit-animation-duration : 1000 ms  ;
+    animation-duration : 1000 ms  ;
+    -webkit-animation-fill-mode : both  ;
+    animation-fill-mode : both  ;
+  }  
+ 
+  .owl-animated-out {
+    z-index : 1 
+     }
+ 
+  .owl-animated-in {
+    z-index : 0 
+     }
+ 
+  .fadeOut  {
+    -webkit-animation-name : fadeOut  ;
+    animation-name : fadeOut  ;
+  
+  }  
+  @-webkit-keyframes  fadeOut  {
+    0% {
+      opacity : 1   ;
+    }  
+    100% {
+      opacity : 0   ;
+    }  
+  }
+  @keyframes  fadeOut  {
+    0% {
+      opacity : 1   ;
+    }  
+    100% {
+      opacity : 0   ;
+    }  
+  }
+
+span{
+    color: #FFBD39;
+    letter-spacing: 3px;
+}
+h1{   
+    font-size: 60px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 800;
+}
+span.name{
+  display: block;
+}
+.career{
+    font-size: 30px;
+}
+.hiring{
+    background-color: #FFBD39;
+    border-style: none;
+
+}
+.myWork{
+    border-style: none;
+}
+.word{
+  color: rgba(255, 255, 255,0.1);
+  font-weight: 900;
+  font-size: 7vw;
+  position: relative;
+  margin-bottom: 0px;
+}
+.word::before{
+  content: "About Me";
+  position: absolute;
+ bottom: 70%;
+left: 3%;
+ color: #fff;
+ font-size: 30px;
+}
+p{
+  margin-top: -20px;
+}
+li{
+  list-style: none;
+  margin-bottom: 10px;
+}
+li span {
+  color: #fff;
+  font-weight: 600;
+}
+@font-face {
+  font-family:Poppins ;
+  src: url(/webfonts/Poppins-Medium.ttf);
+}
+.r-side{
+font-family: Poppins
+}
+
+.l-side{
+  color:#5B5B5B ;
+  font-family: Poppins;
+}
+.cv{
+  text-align: center;
+}
+ .col-12{
+  display: none;
+ }
+ .each span{
+  font-family:Poppins ;
+ 
+ }
+ .item{
+  position: relative;
+overflow: hidden;
+margin-bottom: 10px;
+border-radius: 10px;
+
+ }
+ .overlay{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255,0.3);
+  opacity: 0;
+  transition: all 1s;
+  
+ }
+ .column{
+  width: 33%;
+  padding: 7px;
+ }
+ .item:hover .overlay{
+  opacity: 1;
+ }
+ .item:hover img {transform: scale(1.2,1.2);}
+ .item img {
+  transition: all 1s;
+ }
+.header h2{
+  font-family: Poppins;
+  font-size: 96px;
+  color: rgba(255, 255, 255,0.1);
+  font-weight: 900;
+  position: relative;
+}
+
+.header h2::after{
+  content: "contact Me";
+  position: absolute;
+  font-family: Poppins;
+  font-size: 50px;
+  color:#ffffff;
+  font-weight:700;
+  right: 40%;
+  bottom: 65%;
+
+
+}
+.headerS h2{
+  font-family: Poppins;
+  font-size: 96px;
+  color: rgba(255, 255, 255,0.1);
+  font-weight: 900;
+  position: relative;
+}
+
+.headerS h2::after{
+  content: "My Skills";
+  position: absolute;
+  font-family: Poppins;
+  font-size: 50px;
+  color:#ffffff;
+  font-weight:700;
+  right: 42%;
+  bottom: 53%;
+
+
+}
+.headerW h2{
+  font-family: Poppins;
+  font-size: 96px;
+  color: rgba(255, 255, 255,0.1);
+  font-weight: 900;
+  position: relative;
+}
+
+.headerW h2::after{
+  content: "My Works";
+  position: absolute;
+  font-family: Poppins;
+  font-size: 50px;
+  color:#ffffff;
+  font-weight:700;
+  right: 42%;
+  bottom: 60%;
+
+
+}
+.d{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+
+}
+.item1{
+ flex-grow: 0.1 
+}
+.item2{
+  flex-grow: 0.3;
+}
+.item4{
+  flex-grow: 0.2;
+}
+.item3{
+  flex-shrink: 1;
+}
+
+.font{
+  font-family:Poppins ;
+  font-size: 15px;
+}
