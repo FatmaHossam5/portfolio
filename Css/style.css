@@ -270,3 +270,60 @@ border-radius: 10px;
   font-family:Poppins ;
   font-size: 15px;
 }
+
+@media screen and (max-width: 600px) {
+  
+  .about-img  {
+   display: none;
+  }
+  .word::before{
+    content: "About Me";
+    position: absolute;
+   top: 2%;
+  left: 5%;
+   color: #fff;
+   font-size: 40px;
+  }
+  .about-content p {
+    margin-top: 10px;
+  }
+  ul.about-info{
+width: 100%;
+padding: 0;
+margin: 0;
+
+}
+ul.about-info  span{
+  width: calc(100% - 130px);
+  margin-left: 5px;
+}
+}
+
+
+@media screen and (min-width: 768px) {
+  
+  ul.about-info  span{
+    width: calc(100% - 130px);
+ 
+    
+
+  }
+  ul.about-info{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+    }
+    .word::before{
+      content: "About Me";
+      position: absolute;
+     top: 2%;
+    left: 5%;
+     color: #fff;
+     font-size: 40px;
+    }
+    .about-content p {
+      margin-top: 10px;
+    }
+}
+
